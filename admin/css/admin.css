@@ -1,0 +1,120 @@
+body{
+    height: 100%;
+}
+a{
+    color: #3755DF;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+/*---------------*/
+#top-header{
+    height: 25px;
+    background: #f7f7f7;
+    width: 100%;
+    border: 1px solid #f1f1f1;
+}
+#wrapper{
+    width: 980px;
+    margin: 0 auto;
+
+}
+#container{
+     overflow: hidden;
+}
+#sidebar{
+    float: left;
+    width: 250px;
+    background: #f3f3f3;
+    min-height: 480px;
+
+}
+#main{
+    float: right;
+    width: 730px;
+    background: #fff;
+    min-height: 480px;
+}
+/** ADMIN MENU **/
+#nav{
+    margin-top: 5px;
+    padding: 10px 0 10px 10px;
+}
+#admin_menu li a{
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 1px;
+}
+#admin_menu li a:hover,
+#admin_menu li a.active{
+    text-decoration:  none;
+    background: #fff;
+    
+}
+/** form **/
+#content{
+    padding: 10px;
+    position: relative;
+}
+#content h2{
+    font-size: 130%;
+    border-bottom: 1px solid #ccc;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+#content .add-link{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+#content form div{
+    margin-bottom: 10px;
+}
+#content form div label{
+    float: left;
+    display: block;
+    width: 150px;
+}
+#content form div input[type="text"],
+#content form div input[type="password"]{
+    width: 180px;
+}
+/** Table **/
+.tbl-list {width: 100%;}
+.tbl-list th{background: #666; color: #fff; padding: 3px;}
+.tbl-list td{ text-align: center; padding: 3px;}
+.tbl-list tr:nth-child(odd)   { background-color:#eee; }
+.tbl-list tr:nth-child(even)    { background-color:#fff; }
+.tbl-list  tr:hover{background: #FFEEBF}\
+
+/** Button **/
+.btn {
+	display: inline-block;
+	background: url(../images/btn.bg.png) repeat-x 0px 0px;
+	padding:5px 10px 6px 10px;
+	font-weight:bold;
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.5);
+	border:1px solid rgba(0,0,0,0.4);
+	-moz-border-radius: 5px;
+	-moz-box-shadow: 0px 0px 2px rgba(0,0,0,0.5);
+	-webkit-border-radius: 5px;
+	-webkit-box-shadow: 0px 0px 2px rgba(0,0,0,0.5);
+}
+
+.btn:hover {
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+	cursor:pointer;
+        text-decoration: none;
+}
+
+/* COLOR VARIATIONS */
+
+.blue		{background-color: #CCCCCC; color: #141414;}
+.blue:hover	{background-color: #00c0ff; color: #ffffff;}
+
+.green		{background-color: #CCCCCC; color: #141414;}
+.green:hover{background-color: #8aff00; color: #ffffff;}
+
+.red		{background-color: #CCCCCC; color: #141414;}
+.red:hover	{background-color: #ff004e; color: #ffffff;}

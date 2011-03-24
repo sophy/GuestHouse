@@ -1,0 +1,15 @@
+I. Initial Admin Page
+
+    1. Add top menu by create top_menu.php and include it to admin_header.php var function get_topmenu() 
+    2. Sidebar by create sidebar.php and include to page that want to add it var function get_sidebar().
+    In sidebar have menu and other thing need to store it in sidbar menu
+
+NOTE: all functions store at file admin.php
+
+II. Manage User
+    1. Create file user.php to manage user. We use this file to add, edit and delete users
+    2. Create function to add user:
+        a. function to create form for add new user form_add_user()
+        b. function to save user when submit user by form add_new_user()
+    3. List users
+
