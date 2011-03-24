@@ -67,6 +67,7 @@ a:hover{
     position: absolute;
     right: 10px;
     top: 10px;
+    font-size: 0.95em;
 }
 #content form div{
     margin-bottom: 10px;

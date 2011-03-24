@@ -1,5 +1,7 @@
 <?php
 require_once(ABSPATH.'includes/functions.php');
+/* Constants */
+require_once (ABSPATH . 'includes/constants.php');
 
 require_once(ABSPATH .'includes/ez/shared/ez_sql_core.php'); //import ez_sql_core.php for sql library
 require_once(ABSPATH .'includes/ez/ez_sql_mysql.php'); //import ez_sql_mysql.php for mysql library
@@ -11,5 +13,8 @@ $dbgh->query('SET NAMES '. DB_CHARSET);
 require_once(ABSPATH .'includes/paginator.class.php');
 //create paginator object and generate pagination
 $pages = new Paginator; //create paginator object
+
+// Upload Class
+require_once(ABSPATH .'includes/uploader.class.php');
 
 ?>
